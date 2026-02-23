@@ -42,12 +42,12 @@ export default function Home() {
             <h3 className="text-center text-xl italic mb-6 font-serif">
               L&apos;anima si purifica nel sacrificio. La pace eterna trovata nella morte in battaglia.
             </h3>
-            <div className="relative w-full aspect-[21/9] bg-zinc-200 overflow-hidden mb-6 border border-black">
+            <div className="relative w-full aspect-[16/9] bg-zinc-200 overflow-hidden mb-6 border border-black">
               <Image
-                src="/peace.jpeg"
+                src="/home.jpg"
                 alt="Swimmer leaping into water"
                 fill
-                className="object-fit grayscale sepia-[.3] contrast-125"
+                className="object-cover object-top grayscale sepia-[.3] contrast-125"
               />
             </div>
             <div className="columns-1 sm:columns-2 gap-8 text-justify text-lg leading-relaxed">
@@ -87,20 +87,20 @@ export default function Home() {
         <aside className="md:col-span-4 border-t-2 md:border-t-0 md:border-l-2 border-black pt-6 md:pt-0 md:pl-8 flex flex-col gap-6">
           <div className="border border-black p-4 bg-[#eeebe2]">
             <h3 className="text-2xl font-display font-bold uppercase text-center mb-2 border-b border-black pb-2">
-              Breaking News
+              Ultime Notizie
             </h3>
             <ul className="space-y-4 mt-4">
               <li className="border-b border-gray-400 pb-4">
-                <span className="font-bold uppercase text-xs tracking-widest block mb-1">Foreign Affairs</span>
-                <p className="leading-snug">The Great War commences. Nations mobilize as recruitment drives sweep across the empire.</p>
+                <span className="font-bold uppercase text-xs tracking-widest block mb-1">Esteri</span>
+                <p className="leading-snug">Ha inizio la Grande Guerra. Le nazioni si mobilitano mentre le campagne di reclutamento dilagano in tutto l&apos;impero.</p>
               </li>
               <li className="border-b border-gray-400 pb-4">
-                <span className="font-bold uppercase text-xs tracking-widest block mb-1">Literary Notice</span>
-                <p className="leading-snug">Rupert Brooke publishes his sonnets, capturing the patriotic fervor of the young volunteers.</p>
+                <span className="font-bold uppercase text-xs tracking-widest block mb-1">Notizie Letterarie</span>
+                <p className="leading-snug">Rupert Brooke pubblica i suoi sonetti, catturando il fervore patriottico dei giovani volontari.</p>
               </li>
               <li>
-                <span className="font-bold uppercase text-xs tracking-widest block mb-1">Editorial</span>
-                <p className="leading-snug">Is war the ultimate purification of a stagnant society? Read our exclusive analysis.</p>
+                <span className="font-bold uppercase text-xs tracking-widest block mb-1">Editoriale</span>
+                <p className="leading-snug">È la guerra la purificazione definitiva di una società stagnante? Leggi la nostra analisi esclusiva.</p>
               </li>
             </ul>
           </div>

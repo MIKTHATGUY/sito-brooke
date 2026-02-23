@@ -13,8 +13,37 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "THE BROOKE TIMES - War Sonnets",
-  description: "A newspaper styled analysis of Rupert Brooke's sonnets",
+  title: "The Brooke Times — Sonetti di Guerra",
+  description:
+    "Un'analisi in stile giornale d'epoca dei sonetti di guerra di Rupert Brooke: Peace, The Dead, The Soldier. Testo originale inglese con traduzione italiana.",
+  metadataBase: new URL("https://sito-brooke.vercel.app"),
+  openGraph: {
+    title: "The Brooke Times — Sonetti di Guerra",
+    description:
+      "Un'analisi in stile giornale d'epoca dei sonetti di guerra di Rupert Brooke con traduzione italiana.",
+    url: "https://sito-brooke.vercel.app",
+    siteName: "The Brooke Times",
+    images: [
+      {
+        url: "/home.jpg",
+        width: 1200,
+        height: 630,
+        alt: "The Brooke Times — copertina",
+      },
+    ],
+    locale: "it_IT",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Brooke Times — Sonetti di Guerra",
+    description:
+      "Sonetti di guerra di Rupert Brooke con traduzione italiana interattiva.",
+    images: ["/home.jpg"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
